@@ -20,7 +20,7 @@ require('CoinpaymentsCurlRequest.php');
  * $PayByName tag commands also rely on having available or claimed tags on the production CoinPayments.net website to
  * manipulate.
  */
-class CoinpaymentsAPI
+class Coinpayments
 {
     private $private_key = '';
     private $public_key = '';
